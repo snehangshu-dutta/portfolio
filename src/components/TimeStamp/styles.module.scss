@@ -1,0 +1,33 @@
+.timeStampRow {
+    margin-left: 8px;
+    border-left: 1px solid var(--border-color);
+    margin-bottom: 24px;
+
+    @media (min-width: 768px) {
+        margin-left: 0;
+        border: none;
+    }
+
+    p {
+        margin-bottom: 0;
+    }
+}
+
+.timeStampTitle {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    position: relative;
+
+    img {
+        margin-bottom: 8px;
+    }
+}
+
+.duration {
+    margin-bottom: 8px;
+
+    @media (min-width: 992px) {
+        margin-bottom: 0;
+    }
+}

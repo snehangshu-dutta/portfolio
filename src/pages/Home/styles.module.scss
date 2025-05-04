@@ -1,0 +1,84 @@
+.heroBannner {
+    @media (min-width: 992px) {
+        // height: 75vh;
+        margin: 150px 0;
+    }
+}
+
+.h100 {
+    height: 100%;
+}
+
+.imageWrapper {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-image: url("../../assets/profile.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 24px;
+    @media (min-width: 992px) {
+        width: 480px;
+        height: 480px;
+        margin-top: 0;
+    }
+}
+
+.linksWrapper {
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.linkItem {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    //background: #004990;
+    background: #2f5ea5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--border-color);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    // color: var(--text-color);
+    color: #fff;
+
+    @media (min-width: 992px) {
+        width: 120px;
+        height: 120px;
+        font-size: 22px;
+    }
+
+    &:hover {
+        cursor: pointer;
+        background: #fff;
+        color: #000;
+    }
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0;
+    @media (min-width: 992px) {
+        font-size: 100px;
+    }
+}
+
+.subTitle {
+    font-size: 16px;
+    font-weight: 600;
+    @media (min-width: 992px) {
+        font-size: 22px;
+    }
+}
+
+.description {
+    margin-bottom: 16px;
+    @media (min-width: 992px) {
+        margin-bottom: 32px;
+    }
+}
